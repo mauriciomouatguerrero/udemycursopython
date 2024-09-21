@@ -15,16 +15,16 @@ ALLOWED_HOSTS = []
 #     }
 # }
 
-DATABASES = {
-     'default': {
-         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-         'NAME': 'dbempleado',
-         'USER': 'udemy',
-         'PASSWORD': 'curso2024',
-         'HOST': 'debian',
-         'PORT': '5432',
-     }
-}
+#DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'dbempleado',
+#         'USER': 'udemy',
+#         'PASSWORD': 'curso2024',
+#         'HOST': 'debian',
+#         'PORT': '5432',
+#     }
+#}
 
 # DATABASES = {
 #     'default': {
@@ -37,16 +37,16 @@ DATABASES = {
 #     }
 # }
 
-# DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.mysql',
-#        'NAME': 'mauriciomouatgue$cursos',
-#        'USER': 'mauriciomouatgue',
-#        'PASSWORD': 'Nube5Caja',
-#        'HOST': 'mauriciomouatguerrero.mysql.pythonanywhere-services.com',  # O el host donde esté tu servidor MySQL
-#        'PORT': '3306',    # Puerto por defecto para MySQL
-#    }
-# }
+DATABASES = {
+   'default': {
+       'ENGINE': 'django.db.backends.mysql',
+       'NAME': 'mauriciomouatgue$cursos',
+       'USER': 'mauriciomouatgue',
+       'PASSWORD': 'Nube5Caja',
+       'HOST': 'mauriciomouatguerrero.mysql.pythonanywhere-services.com',  # O el host donde esté tu servidor MySQL
+       'PORT': '3306',    # Puerto por defecto para MySQL
+   }
+}
 
 
 # Static files (CSS, JavaScript, Images)
