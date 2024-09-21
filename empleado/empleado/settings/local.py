@@ -44,7 +44,7 @@ DATABASES = {
        'USER': 'mauriciomouatgue',
        'PASSWORD': 'Nube5Caja',
        'HOST': 'mauriciomouatguerrero.mysql.pythonanywhere-services.com',  # O el host donde esté tu servidor MySQL
-       'PORT': '3306',    # Puerto por defecto para MySQL
+       'PORT': '',    # Puerto por defecto para MySQL
    }
 }
 
